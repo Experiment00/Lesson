@@ -1,0 +1,95 @@
+*{
+    margin: 15;
+}
+body{
+    background-color: rgb(153, 0, 184);
+    font-family: 'Times New Roman', Times, serif;
+}
+#МОЁФОТО{
+      width: 1250px;
+      border: 25px solid rgb(0, 255, 4) ;
+      border-radius: 50% ;
+      padding: 10px 20px 30px 40px ;
+      margin: 20px ;
+      display: block ;
+}
+.fio{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+#myPhoto{
+        width: 300px;
+
+}
+label,input{
+    display: block;
+}
+input[type="checkbox"],input[type="radio"]{
+    display: inline;
+}
+
+
+
+
+.skillslist li{
+    color:green;
+    font-size: 24px;
+    transition: 500ms;
+}
+
+.skillslist li:nth-child(3n+1){
+    color:purple;
+}
+
+.skillslist li:first-child{
+    color:red;
+}
+
+.skillslist li:last-child{
+    color:blue;
+}
+
+.skillslist li:hover{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    min-height: 100vh;
+}
+.phone_container, .coursePrice{
+    width: 500px;
+    background-color: aqua;
+    margin: 50px auto;
+    padding: 20px;
+}
+.phone_container h2, .coursePrice h2{
+    color: blue;
+    font-size: 25px;
+}
+.form label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

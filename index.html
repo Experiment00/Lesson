@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 class="fio">Маъмуров Абдулборий Акмалович</h1>
+    <img id="МОЁ ФОТО" src="./photo_2023-07-25_22-16-17.jpg" alt="Моё фото">
+    <p>Через год ты можешь пожалеть, что не начал сегодня! (Карен Лэмб)</p>
+    <span>Мои контакты:</span>
+    <div>
+        <a href="https://www.youtube.com/@revenger2536">Мой YouTube канал</a>
+        <a href="https://t.me/GZH_CS">Мой Telegram</a>
+    </div>
+    <h2>Мои навывки программирования:</h2>
+    <ul class="skillslist">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>TypeScript</li>
+        <li>Python</li>
+        <li>C++</li>
+        <li>Visual Studio</li>
+        <li>ReactJS</li>
+    </ul>
+    <h2>Во что я играю:</h2>
+    <ol>
+        <li>RTS</li>
+        <img id="myPhoto" src="./maxresdefault.jpg" alt="Любовь всея жизни!">
+        <li>Shooters</li>
+        <img id="myPhoto" src="./OIP.jfif" alt="Любовь всея жизни!">
+        <li>MOBA</li>
+        <img id="myPhoto" src="./R.jfif" alt="Любовь всея жизни!">
+    </ol>
+
+    <form action="#">
+        <label>
+            Ваше имя
+            <input type="text" name="username" placeholder="Имя" value="Jasur" readonly>
+        </label>
+        <label>
+            Ваш возраст
+            <input type="number" name="userage">
+        </label>
+        <label>
+            Вы придёте сегодня на лекцию?
+             <input type="checkbox"name="check">
+        </label>
+        <label>
+            <input type="radio" name="gender">
+            M
+            <input type="radio" name="gender">
+            F
+        </label>
+        <input type="reset" value="Clean">
+        <input type="submit">            
+    </form>
+    <h2>Calculator</h2>
+        <label>
+            Первое число:
+            <input type="number" name="x">
+        </label>
+        <label>
+            Второе число:
+            <input type="number" name="y">
+        </label>
+        <button onclick="sum()">+</button>
+        <button onclick="min()">-</button>
+        <button onclick="multiplication()">*</button>
+        <button onclick="division()">/</button>
+        <div class="result">Результат:</div>
+
+
+
+        <div class="forms">
+            <div class="phone_container">
+                <h2> Оставить заявку</h2>
+                    <label>
+                        Имя:
+                        <input type="text">
+                    </label>
+                    <label>
+                        Страна:
+                        <select id="country" class="country">
+                            <option value="none">Выберите страну</option>
+                            <option value="uz">Узбекистан</option>
+                            <option value="kz">Казахстан</option>
+                            <option value="ru">Россия</option>
+                        </select>
+                    </label>
+                    <label>
+                        Телефон: 
+                        <input type="tel" class="phone" id="phone">
+                    </label>
+                    <label>
+                        <input type="checkbox">
+                        Подтвердите обработку данных
+                    </label>
+                    <button disabled>Отправить</button>
+            </div>
+        </div>
+    
+    
+    <div class="coursePrice">
+        <h2>Калькулятор стоимости обучения</h2>
+        <label>
+            Курс:
+            <select id="courseSelect">
+                <option value="front">Front End</option>
+                <option value="py">Python</option>
+                <option value="DA">Data-Analytics</option>
+            </select>
+        </label>
+        <label>
+            Скидка:
+            <input type="range" min="0" max="50" step="10" value="0" id="rangeValue">
+            <span> 0% </span>
+        </label>
+        <label>
+            Сумма:
+            <input type="text" id="coursePrice" readonly>
+        </label>
+
+
+
+
+    </div>
+    
+    
+    
+    
+    
+        <script src="./main.js"></script>
+</body>
+</html>
